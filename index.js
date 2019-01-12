@@ -5,4 +5,4 @@ var app = express()
 
 //app.use('/', proxy({ target: 'http://www.google.com', changeOrigin: true }))
 app.use('/', proxy({ target: 'http://www.ruv.is/', changeOrigin: true }))
-app.listen(3000)
+app.listen(80)
